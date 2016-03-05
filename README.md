@@ -1,16 +1,17 @@
 # Homebrew TAP for: Kommit
 
-While waiting for my [PR][01]’s approval, I’d like to provide a **tap**
-for our [little project][02]!
-
 ```bash
+brew install kommit   # or
+
 brew tap vigo/kommit
 brew install kommit
 ```
 
 Enjoy!
 
+## Change Log
 
+**2016-03-05**
 
-[01]: https://github.com/Homebrew/homebrew/pull/48451
-[02]: https://github.com/bilgi-webteam/kommit
+* New feature! You can now use `git commit -m "message"` directly and
+you other **kommit** messages will stay in correct place...
